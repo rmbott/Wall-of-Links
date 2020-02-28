@@ -1,7 +1,10 @@
 # Wall of Links
 
 ## Description:
-Display your frequently visited pages in an elegant and functional way. Namely, a wall of text. Tweak your copy and make it your browsers default homepage to visit all your frequently visited pages with one click. Requires rudimentary knowledge of HTML. 
+Display your frequently visited pages in an elegant and functional way. Namely, a wall of text. Tweak your copy and make it your browsers default homepage to visit all your frequently visited pages with one click. Requires rudimentary knowledge of HTML.
+
+## See it in action
+[https://codepen.io/rmbott/pen/eMBBEz](https://codepen.io/rmbott/pen/eMBBEz)
 
 ## Features:
   * Darkmode
