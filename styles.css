@@ -1,0 +1,112 @@
+body {
+  font-family: "Computer Modern Sans", sans-serif;
+  font-size: 180%;
+  background-color: white;
+}
+
+/* Headers
+****************************/
+h1 {
+  font-family: "Computer Modern Serif", serif;
+  font-size: 120%;
+  margin-bottom: 0;
+}
+
+/* Links - Uniform look
+****************************/
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Subitems (bullet lists)
+****************************/
+ul {
+  font-size: 75%;
+  margin: 0;
+}
+
+/* Dark Mode Button
+****************************/
+input[type=button] {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #444444; 
+  border: 3px solid black;
+  color: black;
+  padding: 2px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+/* Grid
+****************************/
+.grid-container {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto;
+  justify-content: space-evenly;
+}
+
+/* Extra small devices (phones, 800px and down) */
+@media only screen and (max-width: 800px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+  body {font-size: 3rem;}
+  h1 {font-size: 4rem;}
+  li {font-size: 2rem;}
+  input[type="button"] {font-size:2rem;}
+}
+
+/* Small devices (portrait tablets and large phones, 800px and up) */
+@media only screen and (min-width: 800px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+  body {font-size: 3rem;}
+  h1 {font-size: 4rem;}
+  li {font-size: 2rem;}
+  input[type="button"] {font-size:2rem;}
+}
+
+/* Medium devices (landscape tablets, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+  body {font-size: 3rem;}
+  h1 {font-size: 4rem;}
+  li {font-size: 2rem;}
+  input[type="button"] {font-size:2rem;}
+}
+
+/* Large devices (laptops/desktops, 1500px and up) */
+@media only screen and (min-width: 1500px) {
+  .grid-container {
+    grid-template-columns: auto auto auto;
+  }
+  body {font-size: 2rem;}
+  h1 {font-size: 3rem;}
+  li {font-size: 1rem;}
+  input[type="button"] {font-size:1rem;}
+}
+
+/* Extra large devices (large laptops and desktops, 1900px and up) */
+@media only screen and (min-width: 1900px) {
+  .grid-container {
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+  }
+  body {font-size: 1.5rem;}
+  h1 {font-size: 2rem;}
+  li {font-size: 1rem;}
+  input[type="button"] {font-size:1rem;}
+}
